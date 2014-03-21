@@ -10,7 +10,7 @@
         font-family: Verdana, arial, sans-serif;
       }
       #patron .inner {
-        width:468px;
+        width:480x;
         margin: 1px 75px 1px 5px;
       }
       #ocaption {
@@ -84,6 +84,7 @@
                     <input type=text id=ilogo value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1/196413_203372159682120_1667026_a.jpg">
                 </div>
             </div>
+            <input type=button value=Permalink id=bookmark>
 
             <p>
                 ... and preview it here:
@@ -109,20 +110,39 @@
             </textarea>
         </div>
         <script>
+            function deparam() {
+                var qs = window.location.search.substring(1);
+                var vars = qs.split("&");
+                var o = {}
+                for (var i=0;i<vars.length;i++) {
+                    var p = vars[i].split("=");
+                    o[p[0]] = p[1];
+                }
+                return o;
+            }
+
+            $.each(['caption','link','blurb','logo'], function(i,p) {
+                var v = deparam()[p];
+                if (v!=null)
+                    $('#i'+p).val(decodeURIComponent(v.replace(/\+/g," ")));
+            });
+
             function onchange(node,func) {
-              node.change(func).keydown(func).keyup(func);
-              func.call(node[0]);
+                node.change(func).keydown(func).keyup(func);
+                func.call(node[0]);
+            }
+            function pack() {
+                return {
+                    caption:    $('#icaption').val(),
+                    link:       $('#ilink').val(),
+                    blurb:      $('#iblurb').val(),
+                    logo:       $('#ilogo').val()
+                };
             }
             function updateOutput() {
-                var v = JSON.stringify({
-                    caption:    $('#icaption').val(),
-                    href:       $('#ilink').val(),
-                    blurb:      $('#iblurb').val(),
-                    icon:       $('#ilogo').val()
-                });
-                $('#output').text(v);
+                $('#output').text(JSON.stringify(pack()));
             }
-            
+
             $.each(['caption','link','blurb'],function(i,v) {
                 var callback = function() {
                     var t = this.value;
@@ -134,13 +154,19 @@
                 onchange($('#i'+v),updateOutput);
             })
             onchange($('#ilogo'),function() {
-              $('#patron .logo').attr('src',this.value);
-              updateOutput();
+                $('#patron .logo').attr('src',this.value);
+                updateOutput();
             });
-            
+
             onchange($('#ilink'),function() {
-              $('.ourl').attr('href',this.value)
+                $('.ourl').attr('href',this.value)
             })
+
+            $('#bookmark').click(function() {
+                window.location.href="?"+$.param(pack());
+            });
+
+
             updateOutput();
         </script>
     </body>
