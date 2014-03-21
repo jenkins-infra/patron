@@ -55,11 +55,17 @@
         #input {
             margin-bottom: 2em;
         }
+        #output {
+            width: 568px; height: 200px;
+        }
     </style>
     <body>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <div>
             <h1>Patron Message Tester</h1>
+            <p>
+                Type in the form below:
+            </p>
             <div id=input>
                 <div>
                     <label>Caption:</label>
@@ -78,10 +84,16 @@
                     <input type=text id=ilogo value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1/196413_203372159682120_1667026_a.jpg">
                 </div>
             </div>
+
+            <p>
+                ... and preview it here:
+            </p>
             
             <div id="patron">
               <div style="float:right;">
-                <img class=logo>
+                  <a class=ourl>
+                      <img class=logo>
+                  </a>
               </div>
               <div class=inner>
                 <div class="color"><a href='#' id=ocaption class=ourl></a></div>
@@ -89,11 +101,26 @@
                 <div id=oblurb></div>
               </div>
             </div>
+            
+            <p>
+               When you are happy, send in the text below:
+            </p>
+            <textarea id=output>
+            </textarea>
         </div>
         <script>
             function onchange(node,func) {
               node.change(func).keydown(func).keyup(func);
               func.call(node[0]);
+            }
+            function updateOutput() {
+                var v = JSON.stringify({
+                    caption:    $('#icaption').val(),
+                    href:       $('#ilink').val(),
+                    blurb:      $('#iblurb').val(),
+                    icon:       $('#ilogo').val()
+                });
+                $('#output').text(v);
             }
             
             $.each(['caption','link','blurb'],function(i,v) {
@@ -104,14 +131,17 @@
                     $('#o'+v).text(t)
                 }
                 onchange($('#i'+v),callback);
+                onchange($('#i'+v),updateOutput);
             })
             onchange($('#ilogo'),function() {
               $('#patron .logo').attr('src',this.value);
+              updateOutput();
             });
             
             onchange($('#ilink'),function() {
               $('.ourl').attr('href',this.value)
             })
+            updateOutput();
         </script>
     </body>
 </html>
