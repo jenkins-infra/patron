@@ -1,0 +1,118 @@
+<html>
+    <style>
+      .color { color: #3483A1; }
+      
+      #patron {
+        width:568px;
+        height:75px;
+        overflow:hidden;
+        border:1px solid black;
+        font-family: Verdana, arial, sans-serif;
+      }
+      #patron .inner {
+        width:468px;
+        margin: 1px 75px 1px 5px;
+      }
+      #ocaption {
+        font-size: 18px;
+        line-height:22px;
+        white-space: nowrap;
+        text-decoration:none;
+        color: #3483A1;
+      }
+      #olink {
+        font-size: 11px;
+        line-height: 15px;
+        white-space: nowrap;
+        color: #3483A1;
+      }
+      #oblurb {
+        color: #000;
+        font-size: 11px;
+        line-height:13px;
+        margin-top: 2px;
+      }
+      #patron .logo {
+        -webkit-filter: grayscale(100%);
+        -webkit-transition: .5s ease-in-out;
+        -moz-filter: grayscale(100%);
+        -moz-transition: .5s ease-in-out;
+        filter: grayscale(100%);
+        transition: .5s ease-in-out;
+        height: 75px;
+        width: 75px;
+      }
+      #patron .logo:hover {
+          -webkit-filter: grayscale(0%);
+          -webkit-transition: .5s ease-in-out;
+          -moz-filter: grayscale(0%);
+          -moz-transition: .5s ease-in-out;
+          filter: grayscale(0%);
+          transition: .5s ease-in-out;
+        }
+        #input input { width: 400px; margin-left: 50px; }
+        #input label { width: 50px; float: left; }
+        #input {
+            margin-bottom: 2em;
+        }
+    </style>
+    <body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <div>
+            <h1>Patron Message Tester</h1>
+            <div id=input>
+                <div>
+                    <label>Caption:</label>
+                    <input type=text id=icaption value="Bring JenkinsCI to the Enterprise with CloudBees">
+                </div>
+                <div>
+                    <label>Hyperlink:</label>
+                    <input type=text id=ilink value="http://www.cloudbees.com/jenkins">
+                </div>
+                <div>
+                    <label>Message:</label>
+                    <input type=text id=iblurb value="Amp up your Jenkins with professional support, enterprise plugins, and a multi-master operations center… and get Jenkins in the cloud">
+                </div>
+                <div>
+                    <label>Logo:</label>
+                    <input type=text id=ilogo value="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1/196413_203372159682120_1667026_a.jpg">
+                </div>
+            </div>
+            
+            <div id="patron">
+              <div style="float:right;">
+                <img class=logo>
+              </div>
+              <div class=inner>
+                <div class="color"><a href='#' id=ocaption class=ourl></a></div>
+                <div class="color"><a href='#' id=olink class=ourl></a></div>
+                <div id=oblurb></div>
+              </div>
+            </div>
+        </div>
+        <script>
+            function onchange(node,func) {
+              node.change(func).keydown(func).keyup(func);
+              func.call(node[0]);
+            }
+            
+            $.each(['caption','link','blurb'],function(i,v) {
+                var callback = function() {
+                    var t = this.value;
+                    if (t.match(/^http:/)) t=t.substring(7);
+                    if (t.match(/^https:/)) t=t.substring(8);
+                    $('#o'+v).text(t)
+                }
+                onchange($('#i'+v),callback);
+            })
+            onchange($('#ilogo'),function() {
+              $('#patron .logo').attr('src',this.value);
+            });
+            
+            onchange($('#ilink'),function() {
+              $('.ourl').attr('href',this.value)
+            })
+        </script>
+    </body>
+</html>
+
