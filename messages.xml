@@ -1,5 +1,5 @@
-<messages>
-  <message time="2014Q2">
+<patrons>
+  <slots time="2014Q1"><!-- test slot -->
     <slot>
       <contact>lwells@cloudbees.com</contact>
       <message>
@@ -10,5 +10,21 @@
       </message>
     </slot>
     <!-- 3 more slots unused -->
-  </message>
-</messages>
+
+    <slot>
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Pay Attention to Security Advisory</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+      <message>
+        <caption>Jenkins User Conference 2014</caption>
+        <link>http://jenkins-ci.org/</link>
+        <blurb>Jenkins User Conference in this year will be held in Boston, Berlin, Israel, San Francisco Bay Area, and in Australia/New Zealand. See you soon</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+  </slots>
+</patrons>
