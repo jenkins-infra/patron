@@ -8,13 +8,11 @@
     return Math.floor(Math.random()*max);
   }
 
-  if (rnd(7)==0) {
-    var slot = rnd(4);  
-    if (slot<msgs.length) {
-      var m = rnd(msgs[slot]);
-      location.href = "message-"+slot+"_"+m+".html";
-    }
-  }  
+  var slot = rnd(4);
+  if (slot<msgs.length) {
+    var m = rnd(msgs[slot]);
+    location.href = "message-"+slot+"_"+m+".html";
+  }
 </script>
 </body>
 </html>
