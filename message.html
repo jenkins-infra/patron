@@ -2,16 +2,22 @@
 <html>
 <body>
 <script>
-  var msgs = [1,1,2];
+  var data = {DATA};
   
   function rnd(max) {
     return Math.floor(Math.random()*max);
   }
+  
+  var dt = new Date()
+  
+  var t = (dt.getYear()+1900)+"Q"+(Math.floor(dt.getMonth()/3)+1);
+  var msgs = data[t] || [];
 
   var slot = rnd(4);
   if (slot<msgs.length) {
     var m = rnd(msgs[slot]);
-    location.href = "message-"+slot+"_"+m+".html";
+    var p = t+"-"+slot+"_"+m+".html"
+    location.href = p;
   }
 </script>
 </body>

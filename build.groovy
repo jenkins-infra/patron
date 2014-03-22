@@ -9,27 +9,32 @@ def xml = new XmlSlurper().parse("messages.xml")
 def dt = new Date()
 dt = "${dt.year+1900}Q${1+((int)dt.month/3)}"
 
-def slots = xml.slots.find{ it.@time==dt }
+def all = [:];
 
-int s = 0;
-def messageCounts = [];
+def slots = xml.quarter.each { q ->
+    def messageCounts = [];
+    all[q.@time.text()] = messageCounts
 
-if (slots!=null) {
-  slots.slot.each { slot ->
-    for (int i=0; i<((slot.@weight?.text() ?: 1) as int); i++) {// repeat for each weight of each slot
-      int m = 0;
-      slot.message.each { msg ->
-        generate(msg, "output/message-${s}_${m}.html");
-        m++;
-      }
-      messageCounts << m;
-      s++;
+    int s = 0;
+
+    q.slot.each { slot ->
+        for (int i=0; i<((slot.@weight?.text() ?: 1) as int); i++) {// repeat for each weight of each slot
+            int m = 0;
+            slot.message.each { msg ->
+                generate(msg, "output/${q.@time}-${s}_${m}.html");
+                m++;
+            }
+            messageCounts << m;
+            s++;
+        }
     }
-  }
 }
 
-new File("output/message.html").text = new File("message.html").text.replace("[1,1,2]",messageCounts.toString());
+new File("output/message.html").text = new File("message.html").text.replace("{DATA}",toHash(all));
 
+def toHash(m) {
+  "{"+m.collect { k,v -> " '${k}':$v " }.join(',')+"}"
+}
 
 def generate(msg,name) {
   def caption = msg.caption.text()

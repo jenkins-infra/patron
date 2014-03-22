@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patrons>
-  <slots time="2014Q1"><!-- test slot -->
+  <quarter time="2014Q1"><!-- test slot -->
     <slot weight="2">
       <contact>lwells@cloudbees.com</contact>
       <message>
@@ -28,5 +28,5 @@
     </slot>
 
     <!-- 1 slot unused -->
-  </slots>
+  </quarter>
 </patrons>
