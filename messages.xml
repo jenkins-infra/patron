@@ -1,15 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <patrons>
   <slots time="2014Q1"><!-- test slot -->
-    <slot>
+    <slot weight="2">
       <contact>lwells@cloudbees.com</contact>
       <message>
         <caption>Bring JenkinsCI to the Enterprise with CloudBees</caption>
         <link>http://www.cloudbees.com/jenkins</link>
-        <blurb>Amp up your Jenkins with professional support, enterprise plugins, and a multi-master operations center… and get Jenkins in the cloud</blurb>
+        <blurb>Amp up your Jenkins with professional support, enterprise plugins, and a multi-master operations center... and get Jenkins in the cloud</blurb>
         <logo>https://www.cloudbees.com/sites/default/files/images/CB-logo-clr.R-square78x78.png</logo>
       </message>
     </slot>
-    <!-- 3 more slots unused -->
 
     <slot>
       <contact>kk@kohsuke.org</contact>
@@ -26,5 +26,7 @@
         <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
       </message>
     </slot>
+
+    <!-- 1 slot unused -->
   </slots>
 </patrons>
