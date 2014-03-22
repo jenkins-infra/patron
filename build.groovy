@@ -4,6 +4,8 @@ def dir = new File("output");
 dir.deleteDir()
 dir.mkdir()
 
+new File("output/patron.css").text = new File("patron.css").text
+
 def xml = new XmlSlurper().parse("messages.xml")
 
 def dt = new Date()
@@ -48,7 +50,7 @@ def generate(msg,name) {
   
   new File(name).text = """
 <html>
-<link rel="stylesheet" type="text/css" href="../patron.css">
+<link rel="stylesheet" type="text/css" href="patron.css">
 <body style="margin:0">
   <div id="patron">
     <div style="float:right;">
