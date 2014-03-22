@@ -51,7 +51,7 @@ def generate(msg,name) {
   new File(name).text = """
 <html>
 <link rel="stylesheet" type="text/css" href="patron.css">
-<body style="margin:0">
+<body style="margin:0; overflow:hidden">
   <div id="patron">
     <div style="float:right;">
       <a class=ourl href="${link}">
