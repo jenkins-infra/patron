@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patrons>
   <quarter time="2014Q1"><!-- test slot -->
-    <slot weight="4"><!-- weight represents the number of slots these messages occupy -->
+    <slot weight="2"><!-- weight represents the number of slots these messages occupy -->
       <contact>kk@kohsuke.org</contact>
       <message>
         <caption>NEW MESSAGE AGAIN: OctoCat Rocks & Security Advisory is your friend</caption>
@@ -16,5 +16,62 @@
         <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
       </message>
     </slot>
+    
+  <slot weight="2"><!-- weight represents the number of slots these messages occupy -->
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Another Sponsor message</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+
+    </slot>
+    
   </quarter>
+  
+
+  <quarter time="2014Q2"><!-- test slot -->
+    <slot weight="1"><!-- weight represents the number of slots these messages occupy -->
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>NEW MESSAGE AGAIN: OctoCat Rocks & Security Advisory is your friend</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+    
+    <slot weight="1"><!-- weight represents the number of slots these messages occupy -->
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Another Sponsor message</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+    
+    <slot weight="1"><!-- weight represents the number of slots these messages occupy -->
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Another Sponsor message</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+    
+    <slot weight="1"><!-- weight represents the number of slots these messages occupy -->
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Another Sponsor message</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+    
+  </quarter>
+  
 </patrons>
