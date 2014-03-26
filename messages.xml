@@ -4,7 +4,7 @@
     <slot weight="4"><!-- weight represents the number of slots these messages occupy -->
       <contact>kk@kohsuke.org</contact>
       <message>
-        <caption>OctoCat Rocks & Security Advisory is your friend</caption>
+        <caption>NEW MESSAGE AGAIN: OctoCat Rocks & Security Advisory is your friend</caption>
         <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
         <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
         <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
