@@ -19,24 +19,24 @@
   </quarter>
   
 
-  <quarter time="2014Q2"><!-- Lisa is stabbing this out -->
+  <quarter time="2014Q2"><!-- Lisa is stubbing this out -->
     <slot weight="1">
-      <contact>kk@kohsuke.org</contact>
+      <contact>lwells@cloudbees.com</contact>
       <message>
-        <caption>NEW MESSAGE AGAIN: OctoCat Rocks &amp; Security Advisory is your friend</caption>
-        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
-        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
-        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+        <caption>Bring Jenkins to the Enterprise</caption>
+        <link>http://www.cloudbees.com/jenkins-enterprise-by-cloudbees-download.cb</link>
+        <blurb>Jenkins Enterprise by CloudBees helps enterprises optimize large Jenkins installations through professional support + special plugins. Evaluation is free.</blurb>
+        <logo>https://www.cloudbees.com/sites/default/files/images/CB-logo-clr.R-square78x78.png</logo>
       </message>
     </slot>
     
     <slot weight="1">
-      <contact>kk@kohsuke.org</contact>
+      <contact>lwells@cloudbees.com</contact>
       <message>
-        <caption>Another Sponsor message</caption>
-        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
-        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
-        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+        <caption>Jenkins Operations Center by CloudBees</caption>
+        <link>http://www.cloudbees.com/joc-download</link>
+        <blurb>Efficiently manage, monitor, secure and update large + decentralized Jenkins deployments. Share build resources between masters. Free Eval.</blurb>
+        <logo>https://www.cloudbees.com/sites/default/files/images/CB-logo-clr.R-square78x78.png</logo>
       </message>
     </slot>
     
