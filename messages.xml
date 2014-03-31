@@ -19,7 +19,7 @@
   </quarter>
   
 
-  <quarter time="2014Q2"><!-- Lisa is stubbing this out -->
+  <quarter time="2014Q3"><!-- Lisa is stubbing this out -->
     <slot weight="1">
       <contact>lwells@cloudbees.com</contact>
       <message>
@@ -41,22 +41,22 @@
     </slot>
     
     <slot weight="1">
-      <contact>kk@kohsuke.org</contact>
+      <contact>hmoses@xebialabs.com</contact>
       <message>
-        <caption>Another Sponsor message</caption>
-        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
-        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
-        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+        <caption>You build great features. We get them to your users.</caption>
+        <link>http://go.xebialabs.com/try-xl-platform </link>
+        <blurb>Automate your deployments, provision &amp; scale environments, run &amp; analyze your Agile test suites. Start delivering features faster.</blurb>
+       <logo>http://go.xebialabs.com/rs/xebialabs/images/jenkins-xebialabs.png</logo>
       </message>
     </slot>
     
     <slot weight="1">
-      <contact>kk@kohsuke.org</contact>
+      <contact>blepore@bds.com</contact>
       <message>
-        <caption>Another Sponsor message</caption>
-        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
-        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
-        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+        <caption>Jenkins is great on my desktop, but... Enterprise?</caption>
+        <link>http://www.bds.com</link>
+        <blurb>You were smart and brought in Jenkins. Now it's taking off. As your reward, you get to roll it out to the enterprise. BDS has the expertise to help you do it right.</blurb>
+        <logo>http://www.cloudbees.com/sites/default/files/images/bds_logomark_blue.png</logo>
       </message>
     </slot>
     
