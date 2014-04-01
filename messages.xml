@@ -44,9 +44,9 @@
       <contact>hmoses@xebialabs.com</contact>
       <message>
         <caption>You build great features. We get them to your users.</caption>
-        <link>http://go.xebialabs.com/try-xl-platform </link>
+        <link>http://go.xebialabs.com/try-xl-platform</link>
         <blurb>Automate your deployments, provision &amp; scale environments, run &amp; analyze your Agile test suites. Start delivering features faster.</blurb>
-       <logo>http://go.xebialabs.com/rs/xebialabs/images/jenkins-xebialabs.png</logo>
+        <logo>http://go.xebialabs.com/rs/xebialabs/images/logo-jenkins-graphic.jpg</logo>
       </message>
     </slot>
     
