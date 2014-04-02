@@ -19,7 +19,7 @@
   </quarter>
   
 
-  <quarter time="2014Q3"><!-- Lisa is stubbing this out -->
+  <quarter time="2014Q2"><!-- Lisa is stubbing this out -->
     <slot weight="1">
       <contact>lwells@cloudbees.com</contact>
       <message>
@@ -50,6 +50,7 @@
       </message>
     </slot>
     
+    <!--  pending donation
     <slot weight="1">
       <contact>blepore@bds.com</contact>
       <message>
@@ -59,7 +60,7 @@
         <logo>http://www.cloudbees.com/sites/default/files/images/bds_logomark_blue.png</logo>
       </message>
     </slot>
-    
+    -->
   </quarter>
   
 </patrons>
