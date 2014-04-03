@@ -50,7 +50,6 @@
       </message>
     </slot>
     
-    <!--  pending donation
     <slot weight="1">
       <contact>blepore@bds.com</contact>
       <message>
@@ -60,7 +59,6 @@
         <logo>http://www.cloudbees.com/sites/default/files/images/bds_logomark_blue.png</logo>
       </message>
     </slot>
-    -->
   </quarter>
   
 </patrons>
