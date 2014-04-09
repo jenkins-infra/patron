@@ -59,8 +59,8 @@ def generate(msg,name) {
       </a>
     </div>
     <div class=inner>
-      <div class="color"><a href="${link}" id=ocaption class=ourl>${caption}</a></div>
-      <div class="color"><a href="${link}" id=olink class=ourl>${linkText}</a></div>
+      <div class="color"><a href="${link}" target="top" id=ocaption class=ourl>${caption}</a></div>
+      <div class="color"><a href="${link}" target="top" id=olink class=ourl>${linkText}</a></div>
       <div id=oblurb>${blurb}</div>
     </div>
   </div>
