@@ -11,3 +11,9 @@ the file to include your message.
 
 This then gets processed by [Jenkins-on-Jenkins](https://ci.jenkins-ci.org/view/Infrastructure/job/infra_patron_messages/)
 to be uploaded into the production server.
+
+
+Wiki implementation
+-------------------
+
+[Jenkins Wiki](https://wiki.jenkins-ci.org/) shows patron messages through  [confluence-static-cache](https://github.com/kohsuke/confluence-static-cache/tree/jenkins) layer.
