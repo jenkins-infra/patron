@@ -61,4 +61,38 @@
     </slot>
   </quarter>
   
+  
+  <quarter time="2014Q3">
+    <slot weight="1">
+      <contact>lwells@cloudbees.com</contact>
+      <message>
+        <caption>Bring Jenkins to the Enterprise</caption>
+        <link>http://www.cloudbees.com/jenkins-enterprise-by-cloudbees-download.cb</link>
+        <blurb>Jenkins Enterprise by CloudBees helps enterprises optimize large Jenkins installations through professional support + special plugins. Evaluation is free.</blurb>
+        <logo>https://www.cloudbees.com/sites/default/files/images/CB-logo-clr.R-square78x78.png</logo>
+      </message>
+    </slot>
+    
+    <slot weight="1">
+      <contact>lwells@cloudbees.com</contact>
+      <message>
+        <caption>Jenkins Operations Center by CloudBees</caption>
+        <link>http://www.cloudbees.com/joc-download</link>
+        <blurb>Efficiently manage, monitor, secure and update large + decentralized Jenkins deployments. Share build resources between masters. Free Eval.</blurb>
+        <logo>https://www.cloudbees.com/sites/default/files/images/CB-logo-clr.R-square78x78.png</logo>
+      </message>
+    </slot>
+    
+    <slot weight="1">
+      <contact>hmoses@xebialabs.com</contact>
+      <message>
+        <caption>You build great features. We get them to your users.</caption>
+        <link>http://go.xebialabs.com/try-xl-platform</link>
+        <blurb>Automate your deployments, provision &amp; scale environments, run &amp; analyze your Agile test suites. Start delivering features faster.</blurb>
+        <logo>http://go.xebialabs.com/rs/xebialabs/images/logo-jenkins-graphic.jpg</logo>
+      </message>
+    </slot>
+    
+  </quarter>
+  
 </patrons>
