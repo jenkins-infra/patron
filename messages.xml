@@ -69,7 +69,7 @@
         <caption>Bring Jenkins to the Enterprise</caption>
         <link>http://www.cloudbees.com/jenkins-enterprise-by-cloudbees-download.cb</link>
         <blurb>Jenkins Enterprise by CloudBees helps enterprises optimize large Jenkins installations through professional support + special plugins. Evaluation is free.</blurb>
-        <logo>https://www.cloudbees.com/sites/default/files/images/CB-logo-clr.R-square78x78.png</logo>
+        <logo>http://www.cloudbees.com/sites/default/files/cb-logo-clr.r-square78x78.png</logo>
       </message>
     </slot>
     
@@ -79,7 +79,7 @@
         <caption>Jenkins Operations Center by CloudBees</caption>
         <link>http://www.cloudbees.com/joc-download</link>
         <blurb>Efficiently manage, monitor, secure and update large + decentralized Jenkins deployments. Share build resources between masters. Free Eval.</blurb>
-        <logo>https://www.cloudbees.com/sites/default/files/images/CB-logo-clr.R-square78x78.png</logo>
+        <logo>http://www.cloudbees.com/sites/default/files/cb-logo-clr.r-square78x78.png</logo>
       </message>
     </slot>
     
