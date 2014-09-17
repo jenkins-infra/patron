@@ -61,7 +61,6 @@
     </slot>
   </quarter>
   
-  
   <quarter time="2014Q3">
     <slot weight="1">
       <contact>lwells@cloudbees.com</contact>
@@ -105,7 +104,7 @@
     </slot>
   </quarter>
   
-    <quarter time="2014Q4">
+  <quarter time="2014Q4">
     <slot weight="1">
       <contact>lwells@cloudbees.com</contact>
       <message>
