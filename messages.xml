@@ -93,6 +93,16 @@
       </message>
     </slot>
     
+    <!-- filler -->
+    <slot weight="1">
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Security Advisory is your friend</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
   </quarter>
   
     <quarter time="2014Q4">
@@ -126,6 +136,16 @@
       </message>
     </slot>
     
+    <!-- filler -->
+    <slot weight="1">
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Security Advisory is your friend</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
   </quarter>
   
 </patrons>
