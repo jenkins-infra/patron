@@ -108,9 +108,9 @@
     <slot weight="1">
       <contact>lwells@cloudbees.com</contact>
       <message>
-        <caption>Bring Jenkins to the Enterprise</caption>
-        <link>http://www.cloudbees.com/jenkins-enterprise-by-cloudbees-download.cb</link>
-        <blurb>Jenkins Enterprise by CloudBees helps enterprises optimize large Jenkins installations through professional support + special plugins. Evaluation is free.</blurb>
+        <caption>Do You Want To Be A Jenkins Master?</caption>
+        <link>http://pages.cloudbees.com/2014_JenkinsCIWebsite_Jenkins-Trial-Tshirt.html</link>
+        <blurb>Sign up for a free trial of Jenkins Enterprise by CloudBees and get your own Jenkins Master Tshirt.</blurb>
         <logo>http://www.cloudbees.com/sites/default/files/cb-logo-clr.r-square78x78.png</logo>
       </message>
     </slot>
