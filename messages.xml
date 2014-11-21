@@ -116,11 +116,11 @@
     </slot>
     
     <slot weight="1">
-      <contact>lwells@cloudbees.com</contact>
+      <contact>cpapas@cloudbees.com</contact>
       <message>
-        <caption>Jenkins Operations Center by CloudBees</caption>
-        <link>http://www.cloudbees.com/joc-download</link>
-        <blurb>Efficiently manage, monitor, secure and update large + decentralized Jenkins deployments. Share build resources between masters. Free Eval.</blurb>
+        <caption>New Jenkins Job Type: Workflow Explained</caption>
+        <link>https://pages.cloudbees.com/2014_JenkinsCIWebsite_Jenkins-CD-Workflow.html</link>
+        <blurb>Learn how to create and manage complex software delivery pipelines with the new Jenkins Workflow feature.</blurb>
         <logo>http://www.cloudbees.com/sites/default/files/cb-logo-clr.r-square78x78.png</logo>
       </message>
     </slot>
