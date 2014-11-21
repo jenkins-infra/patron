@@ -106,7 +106,7 @@
   
   <quarter time="2014Q4">
     <slot weight="1">
-      <contact>lwells@cloudbees.com</contact>
+      <contact>cpappas@cloudbees.com</contact>
       <message>
         <caption>Do You Want To Be A Jenkins Master?</caption>
         <link>http://pages.cloudbees.com/2014_JenkinsCIWebsite_Jenkins-Trial-Tshirt.html</link>
@@ -116,7 +116,7 @@
     </slot>
     
     <slot weight="1">
-      <contact>cpapas@cloudbees.com</contact>
+      <contact>cpappas@cloudbees.com</contact>
       <message>
         <caption>New Jenkins Job Type: Workflow Explained</caption>
         <link>https://pages.cloudbees.com/2014_JenkinsCIWebsite_Jenkins-CD-Workflow.html</link>
