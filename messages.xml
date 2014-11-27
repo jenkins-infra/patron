@@ -106,21 +106,21 @@
   
   <quarter time="2014Q4">
     <slot weight="1">
-      <contact>lwells@cloudbees.com</contact>
+      <contact>cpappas@cloudbees.com</contact>
       <message>
-        <caption>Do You Want To Be A Jenkins Master?</caption>
-        <link>http://pages.cloudbees.com/2014_JenkinsCIWebsite_Jenkins-Trial-Tshirt.html</link>
-        <blurb>Sign up for a free trial of Jenkins Enterprise by CloudBees and get your own Jenkins Master Tshirt.</blurb>
+        <caption>7 Ways to Optimize Jenkins</caption>
+        <link>https://pages.cloudbees.com/2014_JenkinsCIWebsite_7-Ways-Optimize.html</link>
+        <blurb>Want to make your Jenkins work even better? Kohsuke shares his favorite tips in this white paper.</blurb>
         <logo>http://www.cloudbees.com/sites/default/files/cb-logo-clr.r-square78x78.png</logo>
       </message>
     </slot>
     
     <slot weight="1">
-      <contact>lwells@cloudbees.com</contact>
+      <contact>cpappas@cloudbees.com</contact>
       <message>
-        <caption>Jenkins Operations Center by CloudBees</caption>
-        <link>http://www.cloudbees.com/joc-download</link>
-        <blurb>Efficiently manage, monitor, secure and update large + decentralized Jenkins deployments. Share build resources between masters. Free Eval.</blurb>
+        <caption>New Jenkins Job Type: Workflow Explained</caption>
+        <link>https://pages.cloudbees.com/2014_JenkinsCIWebsite_Jenkins-CD-Workflow.html</link>
+        <blurb>Learn how to create and manage complex software delivery pipelines with the new Jenkins Workflow feature.</blurb>
         <logo>http://www.cloudbees.com/sites/default/files/cb-logo-clr.r-square78x78.png</logo>
       </message>
     </slot>
