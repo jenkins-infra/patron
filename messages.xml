@@ -241,7 +241,7 @@
       <message>
         <caption>Security Advisory is your friend</caption>
         <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
-        <blurb>Running Jenkins on the internet facing machine? You should pay attention to our security advisories</blurb>
+        <blurb>Running Jenkins on an internet-facing machine? You should pay attention to our security advisories</blurb>
         <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
       </message>
     </slot>
