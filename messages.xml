@@ -246,4 +246,46 @@
       </message>
     </slot>
   </quarter>
+
+  <quarter time="2016Q1">
+    <slot weight="1">
+      <contact>hmoses@xebialabs.com</contact>
+      <message>
+        <caption>Go from JenkinsCI to Enterprise CD with XebiaLabs</caption>
+        <link>http://www.xebialabs.com/products</link>
+        <blurb>Automate your deployments, manage your Continuous Delivery pipelines and make sense of your test results across Jenkins jobs.</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/xebialabs.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>atong@cloudbees.com</contact>
+      <message>
+        <caption>Templating Jenkins Environments with Docker</caption>
+        <link>https://www.cloudbees.com/blog/templating-jenkins-build-environments-docker-containers</link>
+        <blurb>Read this Blog to Learn How</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/cloudbees.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>atong@cloudbees.com</contact>
+      <message>
+        <caption>Jenkins and Docker</caption>
+        <link>https://www.cloudbees.com/continuous-delivery/jenkins-docker</link>
+        <blurb>Learn How to Accelerate Your Continuous Delivery Pipelines</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/cloudbees.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>samr@jfrog.com</contact>
+      <message>
+        <caption>The Enterprise-Ready Docker Repo for Jenkins</caption>
+        <link>https://www.jfrog.com/artifactory-docker</link>
+        <blurb>Join leading software organizations that rely on JFrog Artifactory to Release Fast, or Die. Start a 30-Day Free Trial &gt;&gt;&gt;</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/jfrog.png</logo>
+      </message>
+    </slot>
+  </quarter>
 </patrons>
