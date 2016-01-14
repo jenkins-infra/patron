@@ -54,13 +54,13 @@ def generate(msg,name) {
 <body style="margin:0; overflow:hidden">
   <div id="patron">
     <div style="float:right;">
-      <a class=ourl href="${link}">
+      <a class=ourl target="_blank" href="${link}">
         <img class=logo src="${logo}">
       </a>
     </div>
     <div class=inner>
-      <div class="color"><a href="${link}" target="top" id=ocaption class=ourl>${caption}</a></div>
-      <div class="color"><a href="${link}" target="top" id=olink class=ourl>${linkText}</a></div>
+      <div class="color"><a href="${link}" target="_blank" id=ocaption class=ourl>${caption}</a></div>
+      <div class="color"><a href="${link}" target="_blank" id=olink class=ourl>${linkText}</a></div>
       <div id=oblurb>${blurb}</div>
     </div>
   </div>
