@@ -288,4 +288,46 @@
       </message>
     </slot>
   </quarter>
+
+  <quarter time="2016Q2">
+    <slot weight="1">
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Security Advisory is your friend</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on an internet-facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>atong@cloudbees.com</contact>
+      <message>
+        <caption>Templating Jenkins Environments with Docker</caption>
+        <link>https://www.cloudbees.com/blog/templating-jenkins-build-environments-docker-containers</link>
+        <blurb>Read this Blog to Learn How</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/cloudbees.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>atong@cloudbees.com</contact>
+      <message>
+        <caption>Jenkins and Docker</caption>
+        <link>https://www.cloudbees.com/continuous-delivery/jenkins-docker</link>
+        <blurb>Learn How to Accelerate Your Continuous Delivery Pipelines</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/cloudbees.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>samr@jfrog.com</contact>
+      <message>
+        <caption>The Enterprise-Ready Docker Repo for Jenkins</caption>
+        <link>https://www.jfrog.com/artifactory-docker</link>
+        <blurb>Join leading software organizations that rely on JFrog Artifactory to Release Fast, or Die. Start a 30-Day Free Trial &gt;&gt;&gt;</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/jfrog.png</logo>
+      </message>
+    </slot>
+  </quarter>
 </patrons>
