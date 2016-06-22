@@ -355,7 +355,7 @@
     <slot weight="1">
       <contact>atong@cloudbees.com</contact>
       <message>
-        <caption>Jenkins World 2016</caption>
+        <caption>Jenkins World 2016 (September 13-15)</caption>
         <link>https://www.cloudbees.com/jenkinsworld/home</link>
         <blurb>Network with Jenkins experts, Jenkins thought leaders and other companies supporting the Jenkins ecosystem. Training + Knowledge + Certification = FUN!</blurb>
         <logo>https://jenkins.io/images/patrons/cloudbees-jenkins-world-2016.png</logo>
