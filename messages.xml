@@ -330,4 +330,46 @@
       </message>
     </slot>
   </quarter>
+
+  <quarter time="2016Q3">
+    <slot weight="1">
+      <contact>emarigliano@xebialabs.com</contact>
+      <message>
+        <caption>Evolve your Jenkins pipeline to CD with XebiaLabs</caption>
+        <link>https://xebialabs.com/products/</link>
+        <blurb>Release Orchestration | Deployment Automation | Test Results Management Automate your Enterprise Continuous Delivery pipeline with XebiaLabs</blurb>
+        <logo>https://jenkins-ci.org/images/patrons/xebialabs2.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>atong@cloudbees.com</contact>
+      <message>
+        <caption>Become Jenkins Certified</caption>
+        <link>https://www.cloudbees.com/jenkins-certification</link>
+        <blurb>The first certification program for Jenkins Engineers.</blurb>
+        <logo>https://jenkins.io/images/patrons/cloudbees-certification.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>atong@cloudbees.com</contact>
+      <message>
+        <caption>Jenkins World 2016 (September 13-15)</caption>
+        <link>https://www.cloudbees.com/jenkinsworld/home</link>
+        <blurb>Network with Jenkins experts, Jenkins thought leaders and other companies supporting the Jenkins ecosystem. Training + Knowledge + Certification = FUN!</blurb>
+        <logo>https://jenkins.io/images/patrons/cloudbees-jenkins-world-2016.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>samr@jfrog.com</contact>
+      <message>
+        <caption>The Only Universal Docker Registry for Jenkins</caption>
+        <link>https://www.jfrog.com/artifactory-docker</link>
+        <blurb>Join leading software organizations that rely on JFrog Artifactory to take Docker to production. Free 30-Day Trial</blurb>
+        <logo>https://jenkins.io/images/patrons/jfrog.png</logo>
+      </message>
+    </slot>
+  </quarter>
 </patrons>
