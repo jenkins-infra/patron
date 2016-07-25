@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 // generate actual message files
 
 def dir = new File("output");
