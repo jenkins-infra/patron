@@ -6,10 +6,10 @@ To show appreciation to patrons of Jenkins, we will allow them to display messag
 See [Wiki page](https://wiki.jenkins-ci.org/display/JENKINS/Patron+of+Jenkins+program) for more details of the program.
 
 This repository maintains the source code, [master data](messages.xml), and a program that generates the actual messages
-that follow the specified format. Once the donation is confirmed, [Lisa Wells](https://github.com/lisawells/) updates
+that follow the specified format. Once the donation is confirmed, [Daniel Beck](https://github.com/daniel-beck) updates
 the file to include your message.
 
-This then gets processed by [Jenkins-on-Jenkins](https://ci.jenkins-ci.org/view/Infrastructure/job/infra_patron_messages/)
+This then gets processed by [Jenkins-on-Jenkins](https://ci.jenkins.io/job/Infra/job/patron/)
 to be uploaded into the production server.
 
 
