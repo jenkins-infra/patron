@@ -372,4 +372,36 @@
       </message>
     </slot>
   </quarter>
+
+  <quarter time="2016Q4">
+    <slot weight="1">
+      <contact>atong@cloudbees.com</contact>
+      <message>
+        <caption>Become Jenkins Certified</caption>
+        <link>https://www.cloudbees.com/jenkins-certification</link>
+        <blurb>The first certification program for Jenkins Engineers.</blurb>
+        <logo>https://jenkins.io/images/patrons/cloudbees-certification.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>samr@jfrog.com</contact>
+      <message>
+        <caption>The Only Universal Docker Registry for Jenkins</caption>
+        <link>https://www.jfrog.com/artifactory-docker</link>
+        <blurb>Join leading software organizations that rely on JFrog Artifactory to take Docker to production. Free 30-Day Trial</blurb>
+        <logo>https://jenkins.io/images/patrons/jfrog.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>kk@kohsuke.org</contact>
+      <message>
+        <caption>Security Advisory is your friend</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on an internet-facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+  </quarter>
 </patrons>
