@@ -410,7 +410,7 @@
         <caption>Jenkins and Docker</caption>
         <link>https://www.cloudbees.com/continuous-delivery/jenkins-docker</link>
         <blurb>Learn How to Accelerate Your Continuous Delivery Pipelines</blurb>
-        <logo>https://jenkins-ci.org/images/patrons/cloudbees.png</logo>
+        <logo>https://jenkins.io/images/patrons/cloudbees.png</logo>
       </message>
     </slot>
   </quarter>
