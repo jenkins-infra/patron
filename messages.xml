@@ -414,4 +414,47 @@
       </message>
     </slot>
   </quarter>
+
+  <quarter time="2017Q1">
+    <slot weight="1">
+      <contact>samr@jfrog.com</contact>
+      <message>
+        <caption>The Only Universal Docker Registry for Jenkins</caption>
+        <link>https://www.jfrog.com/artifactory-docker</link>
+        <blurb>Join leading software organizations that rely on JFrog Artifactory to take Docker to production. Free 30-Day Trial</blurb>
+        <logo>https://jenkins.io/images/patrons/jfrog.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>jenkinsci-dev@googlegroups.com</contact>
+      <message>
+        <caption>Security Advisory is your friend</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Security+Advisories</link>
+        <blurb>Running Jenkins on an internet-facing machine? You should pay attention to our security advisories</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>jenkinsci-dev@googlegroups.com</contact>
+      <message>
+        <caption>Become a Jenkins patron!</caption>
+        <link>https://wiki.jenkins-ci.org/display/JENKINS/Patron+of+Jenkins+program</link>
+        <blurb>Show your support for the Jenkins project and get a chance to show your message here.</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+
+    <slot weight="1">
+      <contact>jenkinsci-dev@googlegroups.com</contact>
+      <message>
+        <caption>Participate in the Jenkins project</caption>
+        <link>https://jenkins.io/participate/</link>
+        <blurb>There are many ways to engage with the Jenkins project and community. Here are the most common ways to get you started. Welcome aboard!</blurb>
+        <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
+      </message>
+    </slot>
+
+  </quarter>
 </patrons>
