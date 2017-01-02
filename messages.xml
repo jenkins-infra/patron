@@ -441,7 +441,7 @@
       <message>
         <caption>Become a Jenkins patron!</caption>
         <link>https://wiki.jenkins-ci.org/display/JENKINS/Patron+of+Jenkins+program</link>
-        <blurb>Show your support for the Jenkins project and get a chance to show your message here.</blurb>
+        <blurb>Show your support for the Jenkins project and have your message shown here.</blurb>
         <logo>https://wiki.jenkins-ci.org/download/attachments/2916393/headshot.png</logo>
       </message>
     </slot>
