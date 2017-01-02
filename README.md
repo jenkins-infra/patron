@@ -32,5 +32,6 @@ Deployment
 1. `./build.groovy`
 1. `git checkout gh-pages`
 1. `cp output/* .`
+1. `git add *_0.html`
 1. `git commit -a`
 1. `git push`
