@@ -477,7 +477,6 @@
         <blurb>Make yourself even more valuable – the certification program built and designed for Jenkins Engineers. Learn more.</blurb>
         <logo>https://jenkins.io/images/patrons/cloudbees-certification.png</logo>
       </message>
-    </message>
     </slot>
 
     <slot weight="1">
